@@ -62,7 +62,7 @@ body{
 }
 
 .box{
-	width: 400px;
+	width: 430px;
 	margin: 0 auto;
 	position: relative;
 	perspective: 1000px;
@@ -97,7 +97,7 @@ body{
 	position: absolute;
 	top:0;
 	left:0;
-	padding: 10px 20px;
+	padding: 40px 20px;
 	box-sizing: border-box;
 	text-align: center;
 	color:#fff;

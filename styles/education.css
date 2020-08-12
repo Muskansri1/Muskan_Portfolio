@@ -1,0 +1,110 @@
+#mainNavbar .navbar-brand{
+	color: #348f99;
+	font-weight:100;
+	font-size:1.8rem;
+	
+}
+
+#mainNavbar {
+	font-size: 1.5rem;
+	font-weight: 500;	
+	font-family: 'Courier', Monospace ;
+	
+}
+
+
+#mainNavbar .nav-link {	
+	color: #307c85;
+}
+
+#mainNavbar .nav-link:hover {	
+	color: #09d2e8;
+}
+
+
+
+.navbar.scrolled{
+	background: #140966;
+	transition: background 500ms;
+}
+
+@media(max-width: 1200px){
+
+	#headingGroup h1{
+	font-weight: 100;
+	font-size: 2.5rem;
+}
+}
+
+body{
+	/*background:#131f33;*/
+	/*background-image:url(https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&w=1000&q=80);
+	background-image:url("https://images.unsplash.com/photo-1511933801659-156d99ebea3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");*/
+	background-image:url("https://images.unsplash.com/photo-1528460033278-a6ba57020470?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80");
+	background-size:100%;
+	background-position: center;
+}
+
+.timeline-area{
+	margin: 40px auto;
+	width: 750px;
+	border-left: 2px solid #ccc;
+	padding: 0 20px 0 30px;
+}
+
+.timeline-area .content{
+	background-color:#fff;
+	padding: 10px 25px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	line-height: 1.7;
+	position: relative;
+	height: 110px;
+	margin-bottom: 55px;
+	
+}
+
+.timeline-area .content:before{
+	content: '';
+	display:block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #000;
+	border: 3px solid #ddd;
+	position: absolute;
+	top: 10px;
+	left: -37px;
+}
+
+.timeline-area .content:after{
+	content:'';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color:transparent #ddd transparent transparent;
+	border-width: 8px;
+	position: absolute;
+	left: -17px;
+	top: 10px;
+	
+}
+
+.timeline-area .content h3{
+	margin:0;
+	/*font-family: 'Courier', Monospace*/
+	font-family: serif;
+}
+
+.timeline-area .content h4{
+	margin:0;
+	font-family: Times New Roman Full Stack;
+	font-style: oblique;
+	
+}
+
+.timeline-area .content h5{
+	margin:0;
+	font-family: Times New Roman Full Stack;
+}
+

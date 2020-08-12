@@ -1,0 +1,140 @@
+<!--MAKE A FIXED NAVBAR FOR ABOUT ME-->
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="aboutme.css">
+<!-- <script src="aboutme.js" type="text/javascript"></script>-->
+    <title>MUSKAN SRIVASTAVA</title>
+	  
+  </head>
+  <body>
+
+      <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="/" class="navbar-brand">MUSKAN</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="/home" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="/education" class="nav-link">EDUCATION</a>
+            </li>
+            <li class="nav-item">
+              <a href="/skills" class="nav-link">SKILLS</a>
+            </li>
+			  <li class="nav-item">
+              <a href="/aboutme" class="nav-link">ABOUT ME</a>
+            </li>
+			  <li class="nav-item">
+              <a href="/blogs" class="nav-link">BLOGS</a>
+            </li>
+			  <li class="nav-item">
+              <a href="/projects" class="nav-link">PROJECTS</a>
+            </li>
+			  
+          </ul>
+        </div>
+      </nav>
+
+	 
+      
+	
+		
+        <div class="container">
+			
+            <div class="square"> 
+        <div>  
+            <img class="myimage" src= "https://he-s3.s3.amazonaws.com/media/avatars/muskansri1/resized/160/2c966d1dsc09626.jpg">  
+        </div> 
+         <p>
+			<br>
+			 My name is Muskan Srivastava and I am a 4th year engineering student in Birla Institute of Technology, Mesra studying Computer Science and Engineering.
+
+			3 years of college and studying around 50 plus subjects, I have realized that life always throws choices at you. It's now on you to decide, whether you regret your choices or do something good with them.<br>
+
+			 Procrastinator at heart, I love to travel, be on stage, act, read novels, listen to music and attempt to sing. From a homesick girl in first year to a responsible and independent adult, my journey has been quite 
+
+exhilarating. <br>
+
+	Being a part of clubs like IEEE, Ehsaas Dramatics Society and The Literary Society
+
+			 I have learned to collaborate, take part in teamwork, understand the ideas of others and work for the best of the team. 
+			
+			 
+		</p>
+		<div class="POR">POSITIONS OF RESPONSIBILITY</div>
+        <p> 
+				1. Joint President<br>
+				<span style="margin-left:1.5em">-Ehsaas Dramatics Society</span><br>
+				2. Executive Member<br>
+				<span style="margin-left:1.5em">-The Literary Society</span><br>
+				3. Mathematics Club Captain<br>
+				<span style="margin-left:1.5em">-India International School, XII</span><br>
+				4. Activity Vice Captain<br>
+				<span style="margin-left:1.5em">-India International School, XI</span><br>
+
+        </p> 
+				<dix class="POR">EXTRACURRICULAR ACHIEVEMENTS</dix>
+				<p>
+						1. Student of the Year Award, India International School, 2017.<br>
+						2. Best Speaker Award, Rostra 18’-Annual Literary Fest, BIT Mesra.<br>
+						3. Winner-7RCR (Debate), Rostra 18’, Annual Literary Fest, BIT Mesra.<br>
+						4. Winner- Literati Combat- Rostra’ 19, Annual Literary Fest, BIT Mesra.<br>
+						5. Winner-Flash Time Paradox, BITOTSAV 18’.<br>
+						6. 2nd Runners up, Panchayati Raj, Rostra 18’ , Annual Literary Fest, BIT Mesra.<br>
+						7. Winner, Pukaar, BITOTSAV 19’, BIT Mesra.<br>
+						8. Winners, Street Play, Valhalla 19’ XLRI Jamshedpur.<br>
+
+				</p>
+    </div> 
+			
+			
+        </div>
+		
+		
+		
+        <header>
+            <h1>Who Am I?</h1>
+        </header>
+		
+		
+	
+		
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script>
+      
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+  </body>
+</html> 
